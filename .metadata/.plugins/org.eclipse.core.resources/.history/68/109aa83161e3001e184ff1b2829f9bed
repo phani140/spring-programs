@@ -1,0 +1,8 @@
+package com.sathya.springEx;
+
+public class realStateService {
+	public void realStateInfo() {
+		System.out.println("we are provinding loan on land interst rate is very less");
+	}
+
+}

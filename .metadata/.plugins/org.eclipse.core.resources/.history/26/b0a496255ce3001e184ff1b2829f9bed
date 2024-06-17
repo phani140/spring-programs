@@ -1,0 +1,8 @@
+package com.sathya.springEx;
+
+public class Doctor {
+	private int id;
+	private String name;
+	
+
+}

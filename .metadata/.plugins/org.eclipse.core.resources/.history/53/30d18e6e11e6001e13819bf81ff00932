@@ -1,0 +1,11 @@
+package com.satya.lombok;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Employee employee=new Employee(101, "chinni",200000.45);
+
+	}
+
+}

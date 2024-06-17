@@ -1,0 +1,14 @@
+package com.sathya.springEx;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Person {
+   private HomeLoanService homeLoanService;
+   private realStateService realStateService;
+   
+   public void details() {
+	   homeLoanService.loanInfo();
+	   realStateService.realStateInfo();
+   }
+}

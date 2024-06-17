@@ -1,0 +1,21 @@
+package com.satya.lombok;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Employee employee=new Employee(1, "ram", 20000.45);
+		System.out.println(employee);
+		
+		
+		Employee employee2=new Employee();
+		employee2.setEmpId(101);
+		employee2.setEmpName("Chinni");
+		employee2.setEmpSalary(200000.67);
+		System.out.println(employee2.getEmpId()+" "+employee2.getEmpName()+" "+employee2.getEmpSalary());
+		
+		
+
+	}
+
+}
